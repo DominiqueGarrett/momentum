@@ -1,0 +1,31 @@
+<h1>Dashboard</h1>
+<section id="currentBlogUpdate">
+  <section class="card">
+      <div class="card-body">
+        <h3 class="card-title">{{hbsBlog.title}}</h3> 
+        <h5>Posted on {{hbsBlog.createdAt}}</h5>
+        <p class="card-text">{{hbsBlog.content}}</p>
+    </div>
+  </section>
+</section>
+
+<section id="editBlog" class="card text-center">
+  <div class="card-body">
+  <h3 class="card-title">Edit Post</h3>
+  <form id="editedBlog">
+    <div class="card-text"></div>
+      <label for="editedTitle">Title</label><br>
+      <input type="text" id="editedTitle" placeholder="{{hbsBlog.title}}" value="{{hbsBlog.title}}">
+    </div>
+    <div class="card-text"></div>
+      <label for="editedContent">Content</label>
+    <textarea id="editedContent">{{hbsBlog.content}}</textarea>
+    <input id="hiddenBlogId" hidden="true" value="{{hbsBlog.id}}"></input>
+    </div>
+    <button id="update">Update Post</button>
+    <button id="delete">Delete Post</button>
+</form>
+</div>
+</section>
+
+<script src="/js/updateDelete.js"></script>

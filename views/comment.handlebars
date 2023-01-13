@@ -1,0 +1,33 @@
+<h1>The Tech Blog</h1>
+<section id="currentBlogComment">
+  <section class="card">
+      <div class="card-body">
+        <h3 class="card-title">{{hbsBlog.title}}</h3> 
+        <h5>Posted by {{hbsBlog.user.username}} on {{hbsBlog.createdAt}}</h5>
+        <p class="card-text">{{hbsBlog.content}}</p>
+    </div>
+  </section>
+{{#each hbsBlog.comments}}
+  <section class="card">
+    <div class="card-body">
+      <p>Comment</p>
+      <p class="card-text">{{body}}</p>
+    </div>
+  </section>
+{{/each}}
+</section>
+<section class="card text-center">
+<div class="card-body">
+  <h3 class="card-title">Comment</h3>
+  <form id="newComment">
+    <div class="card-text"></div>
+      <input id="hiddenCommentId" hidden="true" value="{{hbsBlog.id}}"></input>
+      <textarea id="comment" placeholder="Type your comment here..."></textarea>
+    </div>
+    <button id="create">Submit</button>
+</form>
+</div>
+</section>
+
+<script src="/js/comment.js"></script>
+

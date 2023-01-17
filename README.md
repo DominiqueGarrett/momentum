@@ -40,6 +40,7 @@ SO THAT I can keep record of the places I enjoy most while exploring a city
 
 ## Acceptance Criteria 
 ```
+-----INSERT ACCEPTANCE CRITERIA------
 ```
 
 
@@ -79,13 +80,17 @@ Once your '.env' has been created with the corresponding data, open up the schem
 
 
 ## Screenshots of Application in Use
+
 Home Page:
+
 <img width="1437" alt="Screen Shot 2023-01-16 at 4 08 14 PM" src="https://user-images.githubusercontent.com/114618684/212782521-3d564b9d-ef24-4426-be5b-c33141b31610.png">
 
 Login:
+
 <img width="546" alt="Screen Shot 2023-01-16 at 4 08 34 PM" src="https://user-images.githubusercontent.com/114618684/212782646-3bdc65da-bafb-4897-b0c5-7ad2f6c05753.png">
 
 Signup:
+
 <img width="615" alt="Screen Shot 2023-01-16 at 4 08 27 PM" src="https://user-images.githubusercontent.com/114618684/212782698-6ca95ad2-7e5e-47b0-9fb5-fe375465243a.png">
 
 ----------------INSERT MARKER SCREENSHOTS HERE -------------------

@@ -1,52 +1,114 @@
 # momentum
+Project 2: Momentum - Online Pushpin Map 
 
 
-
-  ## Badges
+## Badges
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
-  ## Table of Contents
+## Table of Contents
   * [License](#license)
   * [Description](#description)
+  * [User Story](#user-story)
+  * [Acceptance Criteria](#user-story)
   * [Installation](#installation)
+  * [Setup](#setup)
   * [Usage](#usage)
+  * [Screenshots of Application in Use](#screenshots-of-application-in-use)
+  * [Technologies](#technologies)
   * [How to Contribute](#how-to-contribute)
-  * [Tests](#tests)
   * [Questions?](#questions)
 
 
-  ## License
+## License
   Read more about MIT here:
   [MIT](https://opensource.org/licenses/MIT)
 
 
-  ## Description
-
+## Description
+  Momentum is a full-stack site where users can drop pushpin location markers in the 3 most popular cities in Texas. With login authentication, logged-in users have access to the dashboard where they can save a location and write a description. Additionallly, this application is MVC structured and makes use of multiple packages such as handlebars, bcrypt, express.sessions, sequelize and more to ensure the most optimized experience.
 
 
 ## User Story
-
+```
+AS A person who is new to the area
+I WANT to view and save the places I visit
+SO THAT I can keep record of the places I enjoy most while exploring a city
+```
 
 
 ## Acceptance Criteria 
+```
+```
 
 
+## Installation
+  1. To install application, clone the main project via the HTTP or SSH link on github.
 
-  ## Installation
+```
+git clone <SSH>
+```
+
+2. Once cloned, open up the project folder in your text editor and run the following command in terminal to install all dependencies.
+
+```
+npm install
+```
 
 
+## Setup
+Create an '.env' file in the main directory path and include the following data:
 
-  ## Usage
+```
+DB_NAME='cities_db'
+DB_USER='root'
+DB_PASSWORD=''
+DB_SECRET='my_secret'
+```
+
+Once your '.env' has been created with the corresponding data, open up the schema ('db/schema.sql') and update the database label to match with the database you included in your '.env' file.
 
 
+## Usage
+  1. Run `npm start` in terminal to start. 
 
-  ## How to Contribute
+  Note:
+
+  - Need to be in the main folder in terminal when running the command.
+
+
+## Screenshots of Application in Use
+Home Page:
+<img width="1437" alt="Screen Shot 2023-01-16 at 4 08 14 PM" src="https://user-images.githubusercontent.com/114618684/212782521-3d564b9d-ef24-4426-be5b-c33141b31610.png">
+
+Login:
+<img width="546" alt="Screen Shot 2023-01-16 at 4 08 34 PM" src="https://user-images.githubusercontent.com/114618684/212782646-3bdc65da-bafb-4897-b0c5-7ad2f6c05753.png">
+
+Signup:
+<img width="615" alt="Screen Shot 2023-01-16 at 4 08 27 PM" src="https://user-images.githubusercontent.com/114618684/212782698-6ca95ad2-7e5e-47b0-9fb5-fe375465243a.png">
+
+----------------INSERT MARKER SCREENSHOTS HERE -------------------
+
+
+## Technologies
+* [Node.js](https://nodejs.org/en/)
+* [Express.js](https://expressjs.com)
+* [Handlebars Template Engine](https://handlebarsjs.com)
+* [Bcrypt](https://www.npmjs.com/package/bcrypt)
+* [Sequelize](https://sequelize.org)
+* [Dotenv](https://www.npmjs.com/package/dotenv)
+* [Heroku](https://devcenter.heroku.com/start)
+* [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
+
+## How to Contribute
   [Contributor Covenant](https://www.contributor-covenant.org/)  
 
- 
 
-  ## Questions?
+## Questions?
   ### Reach me here: 
-  [DominiqueGarrett](https://github.com/DominiqueGarrett)  
-  Dominique.garrett1212@yahoo.com
+  [Dominique Garrett](https://github.com/DominiqueGarrett)
+  [Amanda Lee](https://github.com/Amandagl1) 
+  [Bictor Perez Okomura](https://github.com/bperez011)   
+  [Destin Williams](https://github.com/destin86) 
+

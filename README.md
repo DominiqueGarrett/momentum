@@ -1,7 +1,9 @@
 # Momentum
 
+
 # Deployed Application
   View our application here: [Momentum](https://momentum100.herokuapp.com/)
+
 
   ## Badges
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)

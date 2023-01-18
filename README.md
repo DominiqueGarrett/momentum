@@ -85,7 +85,7 @@ Once your '.env' has been created with the corresponding data, open up the schem
 
 Home Page:
 
-<img width="1437" alt="Screen Shot 2023-01-16 at 4 08 14 PM" src="https://user-images.githubusercontent.com/114618684/212782521-3d564b9d-ef24-4426-be5b-c33141b31610.png">
+<img width="1437" alt="Screen Shot 2023-01-16 at 4 08 14 PM" src="">
 
 Login:
 
@@ -95,7 +95,6 @@ Signup:
 
 <img width="615" alt="Screen Shot 2023-01-16 at 4 08 27 PM" src="https://user-images.githubusercontent.com/114618684/212782698-6ca95ad2-7e5e-47b0-9fb5-fe375465243a.png">
 
-----------------INSERT MARKER SCREENSHOTS HERE -------------------
 
 
 ## Technologies
@@ -114,9 +113,6 @@ Signup:
 
 
 ## Questions?
-  ### Reach me here: 
-  [Dominique Garrett](https://github.com/DominiqueGarrett)
-  [Amanda Lee](https://github.com/Amandagl1) 
-  [Bictor Perez Okomura](https://github.com/bperez011)   
-  [Destin Williams](https://github.com/destin86) 
+  ### Reach us here: 
+  [Dominique Garrett](https://github.com/DominiqueGarrett) | [Amanda Lee](https://github.com/Amandagl1) | [Bictor Perez Okomura](https://github.com/bperez011) | [Destin Williams](https://github.com/destin86) 
 

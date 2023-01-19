@@ -1,7 +1,6 @@
 # momentum
 
 
-# Deployed Application
   Deployed Application: [Momentum](https://momentum100.herokuapp.com/)
 
 

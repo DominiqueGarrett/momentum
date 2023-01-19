@@ -2,7 +2,7 @@
 
 
 # Deployed Application
-  View our application here: [Momentum](https://momentum100.herokuapp.com/)
+  Deployed Application: [Momentum](https://momentum100.herokuapp.com/)
 
 
   ## Badges
@@ -113,7 +113,6 @@ Signup:
 
 
 ## Questions?
-
   ### Reach us here: 
   [Dominique Garrett](https://github.com/DominiqueGarrett) | [Amanda Lee](https://github.com/Amandagl1) | [Bictor Perez Okomura](https://github.com/bperez011) | [Destin Williams](https://github.com/destin86) 
 

@@ -2,7 +2,7 @@
 .DS_Store
 assets/.DS_Store
 yarn.lock
-ghost/
+/ghost
 
 #instructions
 instructions

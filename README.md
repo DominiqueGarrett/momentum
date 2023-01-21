@@ -120,5 +120,4 @@ Signup:
 
 ## Questions?
   ### Reach us here: 
-  [Dominique Garrett](https://github.com/DominiqueGarrett) | [Amanda Lee](https://github.com/Amandagl1) | [Bictor Perez Okomura](https://github.com/bperez011) | [Destin Williams](https://github.com/destin86) 
-
+  [Dominique Garrett](https://github.com/DominiqueGarrett) | [Amanda Lee](https://github.com/Amandagl1) | [Bictor Perez Okomura](https://github.com/bperez011) 

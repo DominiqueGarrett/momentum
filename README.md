@@ -1,11 +1,12 @@
-# Momentum
+# momentum
+Project 2: Full-stack web application
 
 
 # Deployed Application
-  Deployed Application: [Momentum](https://momentum100.herokuapp.com/)
+Deployed Application: [Momentum](https://momentum100.herokuapp.com/)
 
 
-  ## Badges
+## Badges
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
@@ -42,7 +43,12 @@ SO THAT I can keep record of the places I enjoy most while exploring a city
 
 ## Acceptance Criteria 
 ```
------INSERT ACCEPTANCE CRITERIA------
+GIVEN an option to select between: Austin, Dallas or Houston
+WHEN I double click the map
+THEN a pushpin is dropped/displays on the map
+WHEN the pushpin is dropped the coordinates are saved
+THEN I am able to enter a name and description
+WHEN I log back it at another time, my saved locations, name and description will be there
 ```
 
 
@@ -114,5 +120,5 @@ Signup:
 
 ## Questions?
   ### Reach us here: 
-  [Dominique Garrett](https://github.com/DominiqueGarrett) | [Amanda Lee](https://github.com/Amandagl1) | [Bictor Perez Okomura](https://github.com/bperez011) | [Destin Williams](https://github.com/destin86) 
+  [Dominique Garrett](https://github.com/DominiqueGarrett) | [Amanda Lee](https://github.com/Amandagl1) | [Bictor Perez Okomura](https://github.com/bperez011) |
 

@@ -1,11 +1,12 @@
-# Momentum
+# momentum
+Project 2: Full-stack web application
 
 
 # Deployed Application
-  Deployed Application: [Momentum](https://momentum100.herokuapp.com/)
+Deployed Application: [Momentum](https://momentum100.herokuapp.com/)
 
 
-  ## Badges
+## Badges
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
@@ -29,20 +30,25 @@
 
 
 ## Description
-  Momentum is a full-stack site where users can drop pushpin location markers in the 3 most popular cities in Texas. With login authentication, logged-in users have access to the dashboard where they can save a location and write a description. Additionallly, this application is MVC structured and makes use of multiple packages such as handlebars, bcrypt, express.sessions, sequelize and more to ensure the most optimized experience.
+  Momentum is a full-stack site where users can drop pushpin location markers in Dallas, TX. With login authentication, logged-in users have access to the dashboard where they can save a location and write a description. Additionallly, this application is MVC structured and makes use of multiple packages such as handlebars, bcrypt, express.sessions, sequelize and more to ensure the most optimized experience.
 
 
 ## User Story
 ```
-AS A person who is new to the area
+AS A person who is new to Dallas, TX
 I WANT to view and save the places I visit
-SO THAT I can keep record of the places I enjoy most while exploring a city
+SO THAT I can keep record of the places I enjoy most whenever I'm in Dallas
 ```
 
 
 ## Acceptance Criteria 
 ```
------INSERT ACCEPTANCE CRITERIA------
+GIVEN an option to select Dallas
+WHEN I double click the map
+THEN a pushpin is dropped/displays on the map
+WHEN the pushpin is dropped the coordinates are saved
+THEN I am able to enter a name and description
+WHEN I log back it at another time, my saved locations, name and description will be there
 ```
 
 
@@ -95,7 +101,9 @@ Signup:
 
 <img width="615" alt="Screen Shot 2023-01-16 at 4 08 27 PM" src="https://user-images.githubusercontent.com/114618684/212782698-6ca95ad2-7e5e-47b0-9fb5-fe375465243a.png">
 
+Map: 
 ----------------INSERT MARKER SCREENSHOTS HERE -------------------
+Marker:
 
 ## Technologies
 * [Node.js](https://nodejs.org/en/)
@@ -106,6 +114,9 @@ Signup:
 * [Dotenv](https://www.npmjs.com/package/dotenv)
 * [Heroku](https://devcenter.heroku.com/start)
 * [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+* [Leaflet](https://leafletjs.com/index.html)
+* [Open Street Map](https://www.openstreetmap.org/copyright)
+
 
 
 ## How to Contribute
@@ -114,5 +125,5 @@ Signup:
 
 ## Questions?
   ### Reach us here: 
-  [Dominique Garrett](https://github.com/DominiqueGarrett) | [Amanda Lee](https://github.com/Amandagl1) | [Bictor Perez Okomura](https://github.com/bperez011) | [Destin Williams](https://github.com/destin86) 
+  [Dominique Garrett](https://github.com/DominiqueGarrett) | [Amanda Lee](https://github.com/Amandagl1) | [Bictor Perez Okomura](https://github.com/bperez011) |
 

@@ -4,15 +4,32 @@
         <button class="button mx-5" id="houston">Houston</button>
         <button class="button ml-5" id="dallas">Dallas</button>
         </div>
-        <div id="map" class="container is-fluid">
-        </div>
+         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+            integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+            crossorigin=""/>
+        <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+             integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+            crossorigin="">
+        </script>
+        <style>
+          #map { height: 180px; }
+        </style> 
+           
+        <body>
+          <div id="map"></div> 
+          <script>
+            const map = L.map('map').setView([51.505, -0.09], 13);
+            const attribution = 
+              '&copy; <a href = "https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
+            const tileURL = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+            const tiles = L.tileLayer(tileURL, {attribution});
+            tiles.addTo(map)
+          
+          </script>
+        </body>
 
     {{> newMarker}}
   
 </div>
-<script
-  src='https://unpkg.com/leaflet@1.9.2/dist/leaflet.js'
-  integrity='sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg='
-  crossorigin=''
-></script>
+
 <script src='./js/map.js'></script>

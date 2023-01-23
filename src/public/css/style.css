@@ -15,7 +15,7 @@ body {
 }
 
 .navbar {
-  background-color: var(--dark-puple);
+  background-color: lightpink;
   border-bottom: 2px solid black;
 }
 
@@ -32,17 +32,6 @@ body {
   line-height: 0.25;
 }
 
-#circle_home {
-  background-color: var(--purple);
-  text-align: center;
-  width: 250px;
-  height: 250px;
-  border: 1px solid black;
-  border-radius: 50%;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 5rem;
-}
 
 .whitetxt {
   color: white;

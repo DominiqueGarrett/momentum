@@ -114,6 +114,8 @@ Map:
 
 <img width="1420" alt="Screen Shot 2023-01-23 at 12 13 45 PM" src="https://user-images.githubusercontent.com/114618684/214117978-95101971-a2c9-4ecf-897a-f7fab06efbe2.png">
 
+Current Location:
+![screenshot_20230123_063912](https://user-images.githubusercontent.com/114618684/214188909-9f4eec53-59c7-486f-b2a1-4de6fc5d2664.png)
 
 ## Technologies
 * [Node.js](https://nodejs.org/en/)
